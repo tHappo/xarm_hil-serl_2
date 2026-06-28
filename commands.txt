@@ -1,0 +1,16 @@
+cd /home/haoce/VLA_RL_Wyangchuan/hilserl/20260624/xarm_hil-serl-main
+conda activate hilserl
+source setup_xarm_hilserl_env.sh
+
+bash serl_robot_infra/robot_servers/launch_right_server.sh
+
+
+=====================================================================
+
+
+cd /home/haoce/VLA_RL_Wyangchuan/hilserl/20260624/xarm_hil-serl-main
+conda activate hilserl
+source setup_xarm_hilserl_env.sh
+
+python examples/record_success_fail.py \
+    --exp_name=usb_pickup_insertion
