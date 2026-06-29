@@ -1,3 +1,5 @@
+export PYTHONPATH=$PWD/serl_robot_infra:$PWD/examples:$PYTHONPATH
+
 cd /home/haoce/VLA_RL_Wyangchuan/hilserl/20260624/xarm_hil-serl-main
 conda activate hilserl
 source setup_xarm_hilserl_env.sh
@@ -7,6 +9,7 @@ bash serl_robot_infra/robot_servers/launch_right_server.sh
 
 =====================================================================
 
+export PYTHONPATH=$PWD/serl_robot_infra:$PWD/examples:$PYTHONPATH
 
 cd /home/haoce/VLA_RL_Wyangchuan/hilserl/20260624/xarm_hil-serl-main
 conda activate hilserl
